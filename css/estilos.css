@@ -19,7 +19,7 @@ body {
     background-color: rgba(18, 16, 16, 0.93);
     padding: 2.5rem;
     border-radius: 1rem;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.3);
 }
 
 header {
@@ -40,7 +40,7 @@ header p {
 nav {
     background-color: transparent;
     margin-top: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0.0625rem solid #ccc;
 }
 
 nav ul {
@@ -57,7 +57,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #0b4f6c;
+    color: whitesmoke;
     font-size: 1.1rem;
     padding: 0.5rem;
     display: block;
@@ -70,12 +70,12 @@ nav a:link {
 
 nav a.activo {
     color: aliceblue;
-    background-color: #0b4f6c;
-    border-radius: 4px;
+    background-color: grey;
+    border-radius: 0.25rem;
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #ccc;
 }
 
 h2 {
@@ -83,16 +83,29 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
 }
+h3 {
+    color: aliceblue;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+h4 {
+    color: aliceblue;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 p {
     color: aliceblue;
-    font-size: 1.1rem;
+    text-align: center;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 1.5rem;
 }
 blockquote {
     background-color: whitesmoke;
-    border-left: 5px solid #0b4f6c;
+    border-left: 0.5rem solid #0b4f6c;
     padding: 1.5rem;
     margin: 2rem 0;
 }
@@ -109,18 +122,59 @@ blockquote cite {
     display: block;
 }
 
+.aportes {
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+.obra {
+    margin: 1.5rem;
+    font-size: 1.2rem;
+}
+
 main img {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin: 2rem auto;
-    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    border-radius: 0.25rem;
+}
+
+.video {
+    max-width: 50rem;
+    width: 100%;
+    margin: 2.5rem auto;
+
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.25rem 0.9rem rgba(0, 0, 0, 0.15);
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 footer {
     text-align: center;
     padding-top: 1rem;
-    border-top: 1px solid #ccc;
+    border-top: 0.06rem solid #ccc;
     color: #777;
     font-size: 0.9rem;
 }
+
+.texto-mail {
+    font-size: 1.1rem;
+    color: aliceblue;
+    margin-top: 1rem;
+}
+ 
