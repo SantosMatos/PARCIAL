@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/fondo.png);
+    background-position: center top;
+    background-repeat: repeat;
+
+    color: #111111;
+}
+.contenedor-principal {
+    max-width: 100rem;
+    width: 100%;
+    margin: 3rem auto;
+
+    background-color: rgba(18, 16, 16, 0.93);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: transparent;
+    margin-top: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+
+nav li {
+    margin: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b4f6c;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a.activo {
+    color: aliceblue;
+    background-color: #0b4f6c;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: aliceblue;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+blockquote {
+    background-color: whitesmoke;
+    border-left: 5px solid #0b4f6c;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+blockquote p {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+blockquote cite {
+    font-size: 1.2rem;
+    color: #666;
+    display: block;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 2rem auto;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    color: #777;
+    font-size: 0.9rem;
+}
